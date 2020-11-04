@@ -309,11 +309,14 @@
     End Sub
 
     Private Sub ReadSector_Click(sender As Object, e As EventArgs) Handles ReadSector.Click
+        Log.Text = ("Reading sectors..")
         Process.Start("cmd", "/k fastboot oem get_sector_info_emmc")
     End Sub
 
     Private Sub ReadEMMC_Click(sender As Object, e As EventArgs) Handles ReadEMMC.Click
-        Process.Start("cmd", "/k fastboot dump emmc backup.bin 0 " + Rsec.Text)
+        Log.Text = ("Reading eMMC..")
+        Process.Start("cmd", "/k fastboot dump emmc backup.bin 0 " + Rsec.Text).WaitForExit()
+        Log.Text = ("Reading eMMC.. Done.")
     End Sub
 
     Private Sub CheckADB_Click(sender As Object, e As EventArgs) Handles CheckADB.Click
