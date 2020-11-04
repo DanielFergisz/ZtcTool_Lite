@@ -149,7 +149,7 @@ Partial Class Form1
         Me.ReactorTheme1.Name = "ReactorTheme1"
         Me.ReactorTheme1.Size = New System.Drawing.Size(469, 658)
         Me.ReactorTheme1.TabIndex = 0
-        Me.ReactorTheme1.Text = "ZtcTool_Lite v1.05"
+        Me.ReactorTheme1.Text = "ZtcTool_Lite v1.06"
         '
         'Label3
         '
@@ -165,7 +165,8 @@ Partial Class Form1
         'Log
         '
         Me.Log.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer))
-        Me.Log.ForeColor = System.Drawing.Color.White
+        Me.Log.Font = New System.Drawing.Font("Verdana", 6.75!, System.Drawing.FontStyle.Bold)
+        Me.Log.ForeColor = System.Drawing.Color.Red
         Me.Log.Location = New System.Drawing.Point(16, 597)
         Me.Log.MaxCharacters = 32767
         Me.Log.Name = "Log"
