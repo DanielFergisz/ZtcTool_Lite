@@ -23,11 +23,18 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.OpenFileDialog2 = New System.Windows.Forms.OpenFileDialog()
+        Me.OpenFileDialog3 = New System.Windows.Forms.OpenFileDialog()
+        Me.Un_Boot = New System.Windows.Forms.Timer(Me.components)
+        Me.TFlash = New System.Windows.Forms.Timer(Me.components)
+        Me.Ins_APK = New System.Windows.Forms.Timer(Me.components)
         Me.ReactorTheme1 = New ZtcTool_Lite.ReactorTheme()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Log = New ZtcTool_Lite.ReactorTextBox()
         Me.ReactorTabControl1 = New ZtcTool_Lite.ReactorTabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.ReactorButton1 = New ZtcTool_Lite.ReactorButton()
         Me.unFilePath = New ZtcTool_Lite.ReactorTextBox()
         Me.ReactorGroupBox1 = New ZtcTool_Lite.ReactorGroupBox()
         Me.RPO = New ZtcTool_Lite.ReactorButton()
@@ -117,12 +124,6 @@ Partial Class Form1
         Me.R_B_A = New ZtcTool_Lite.ReactorButton()
         Me.ReactorButton61 = New ZtcTool_Lite.ReactorButton()
         Me.CheckADB = New ZtcTool_Lite.ReactorButton()
-        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
-        Me.OpenFileDialog2 = New System.Windows.Forms.OpenFileDialog()
-        Me.OpenFileDialog3 = New System.Windows.Forms.OpenFileDialog()
-        Me.Un_Boot = New System.Windows.Forms.Timer(Me.components)
-        Me.TFlash = New System.Windows.Forms.Timer(Me.components)
-        Me.Ins_APK = New System.Windows.Forms.Timer(Me.components)
         Me.ReactorTheme1.SuspendLayout()
         Me.ReactorTabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -137,6 +138,30 @@ Partial Class Form1
         Me.TabPage5.SuspendLayout()
         Me.ReactorGroupBox6.SuspendLayout()
         Me.SuspendLayout()
+        '
+        'OpenFileDialog1
+        '
+        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
+        '
+        'OpenFileDialog2
+        '
+        Me.OpenFileDialog2.FileName = "OpenFileDialog2"
+        '
+        'OpenFileDialog3
+        '
+        Me.OpenFileDialog3.FileName = "OpenFileDialog3"
+        '
+        'Un_Boot
+        '
+        Me.Un_Boot.Interval = 1200
+        '
+        'TFlash
+        '
+        Me.TFlash.Interval = 1100
+        '
+        'Ins_APK
+        '
+        Me.Ins_APK.Interval = 1500
         '
         'ReactorTheme1
         '
@@ -193,6 +218,7 @@ Partial Class Form1
         'TabPage1
         '
         Me.TabPage1.BackColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(32, Byte), Integer))
+        Me.TabPage1.Controls.Add(Me.ReactorButton1)
         Me.TabPage1.Controls.Add(Me.unFilePath)
         Me.TabPage1.Controls.Add(Me.ReactorGroupBox1)
         Me.TabPage1.Controls.Add(Me.EraseCFG)
@@ -216,6 +242,16 @@ Partial Class Form1
         Me.TabPage1.Size = New System.Drawing.Size(439, 517)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "MAIN"
+        '
+        'ReactorButton1
+        '
+        Me.ReactorButton1.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
+        Me.ReactorButton1.Font = New System.Drawing.Font("Verdana", 6.75!)
+        Me.ReactorButton1.Location = New System.Drawing.Point(334, 366)
+        Me.ReactorButton1.Name = "ReactorButton1"
+        Me.ReactorButton1.Size = New System.Drawing.Size(75, 23)
+        Me.ReactorButton1.TabIndex = 17
+        Me.ReactorButton1.Text = "CMD"
         '
         'unFilePath
         '
@@ -1192,30 +1228,6 @@ Partial Class Form1
         Me.CheckADB.TabIndex = 0
         Me.CheckADB.Text = "Check"
         '
-        'OpenFileDialog1
-        '
-        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
-        '
-        'OpenFileDialog2
-        '
-        Me.OpenFileDialog2.FileName = "OpenFileDialog2"
-        '
-        'OpenFileDialog3
-        '
-        Me.OpenFileDialog3.FileName = "OpenFileDialog3"
-        '
-        'Un_Boot
-        '
-        Me.Un_Boot.Interval = 1200
-        '
-        'TFlash
-        '
-        Me.TFlash.Interval = 1100
-        '
-        'Ins_APK
-        '
-        Me.Ins_APK.Interval = 1500
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -1345,4 +1357,5 @@ Partial Class Form1
     Friend WithEvents Label3 As Label
     Friend WithEvents unFilePath As ReactorTextBox
     Friend WithEvents APK_Path As ReactorTextBox
+    Friend WithEvents ReactorButton1 As ReactorButton
 End Class

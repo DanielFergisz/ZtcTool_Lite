@@ -347,4 +347,8 @@
     Private Sub R_S_A_Click(sender As Object, e As EventArgs) Handles R_S_A.Click
         Process.Start("cmd", "/c adb reboot")
     End Sub
+
+    Private Sub ReactorButton1_Click(sender As Object, e As EventArgs) Handles ReactorButton1.Click
+        Process.Start("cmd", "/k ")
+    End Sub
 End Class
