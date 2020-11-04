@@ -110,6 +110,7 @@ Partial Class Form1
         Me.RR4 = New ZtcTool_Lite.ReactorButton()
         Me.RB4 = New ZtcTool_Lite.ReactorButton()
         Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.APK_Path = New ZtcTool_Lite.ReactorTextBox()
         Me.ReactorGroupBox6 = New ZtcTool_Lite.ReactorGroupBox()
         Me.R_S_A = New ZtcTool_Lite.ReactorButton()
         Me.R_R_A = New ZtcTool_Lite.ReactorButton()
@@ -122,7 +123,6 @@ Partial Class Form1
         Me.Un_Boot = New System.Windows.Forms.Timer(Me.components)
         Me.TFlash = New System.Windows.Forms.Timer(Me.components)
         Me.Ins_APK = New System.Windows.Forms.Timer(Me.components)
-        Me.APK_Path = New ZtcTool_Lite.ReactorTextBox()
         Me.ReactorTheme1.SuspendLayout()
         Me.ReactorTabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -1116,6 +1116,19 @@ Partial Class Form1
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "ADB"
         '
+        'APK_Path
+        '
+        Me.APK_Path.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer))
+        Me.APK_Path.ForeColor = System.Drawing.Color.White
+        Me.APK_Path.Location = New System.Drawing.Point(36, 364)
+        Me.APK_Path.MaxCharacters = 32767
+        Me.APK_Path.Name = "APK_Path"
+        Me.APK_Path.Size = New System.Drawing.Size(367, 25)
+        Me.APK_Path.TabIndex = 3
+        Me.APK_Path.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.APK_Path.UsePasswordMask = False
+        Me.APK_Path.Visible = False
+        '
         'ReactorGroupBox6
         '
         Me.ReactorGroupBox6.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
@@ -1201,19 +1214,6 @@ Partial Class Form1
         'Ins_APK
         '
         Me.Ins_APK.Interval = 1500
-        '
-        'APK_Path
-        '
-        Me.APK_Path.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer))
-        Me.APK_Path.ForeColor = System.Drawing.Color.White
-        Me.APK_Path.Location = New System.Drawing.Point(36, 364)
-        Me.APK_Path.MaxCharacters = 32767
-        Me.APK_Path.Name = "APK_Path"
-        Me.APK_Path.Size = New System.Drawing.Size(367, 25)
-        Me.APK_Path.TabIndex = 3
-        Me.APK_Path.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.APK_Path.UsePasswordMask = False
-        Me.APK_Path.Visible = False
         '
         'Form1
         '
