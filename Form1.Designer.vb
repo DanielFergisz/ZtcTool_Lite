@@ -174,7 +174,7 @@ Partial Class Form1
         Me.ReactorTheme1.Name = "ReactorTheme1"
         Me.ReactorTheme1.Size = New System.Drawing.Size(469, 658)
         Me.ReactorTheme1.TabIndex = 0
-        Me.ReactorTheme1.Text = "ZtcTool_Lite v1.06"
+        Me.ReactorTheme1.Text = "ZtcTool_Lite v1.07"
         '
         'Label3
         '
@@ -537,7 +537,7 @@ Partial Class Form1
         Me.ReactorGroupBox5.Controls.Add(Me.RB_Sys)
         Me.ReactorGroupBox5.Location = New System.Drawing.Point(28, 221)
         Me.ReactorGroupBox5.Name = "ReactorGroupBox5"
-        Me.ReactorGroupBox5.Size = New System.Drawing.Size(381, 158)
+        Me.ReactorGroupBox5.Size = New System.Drawing.Size(381, 149)
         Me.ReactorGroupBox5.TabIndex = 24
         Me.ReactorGroupBox5.Text = "Erase Partition **"
         '

@@ -178,50 +178,62 @@
     End Sub
 
     Private Sub RF_Click(sender As Object, e As EventArgs) Handles RF.Click
+        Log.Text = ("Rebooting to FTM Mode..")
         Process.Start("cmd", "/c fastboot oem reboot-ftm")
     End Sub
 
     Private Sub RF2_Click(sender As Object, e As EventArgs) Handles RF2.Click
+        Log.Text = ("Rebooting to FTM Mode..")
         Process.Start("cmd", "/c fastboot oem reboot-ftm")
     End Sub
 
     Private Sub RF3_Click(sender As Object, e As EventArgs) Handles RF3.Click
+        Log.Text = ("Rebooting to FTM Mode..")
         Process.Start("cmd", "/c fastboot oem reboot-ftm")
     End Sub
 
     Private Sub RF4_Click(sender As Object, e As EventArgs) Handles RF4.Click
+        Log.Text = ("Rebooting to FTM Mode..")
         Process.Start("cmd", "/c fastboot oem reboot-ftm")
     End Sub
 
     Private Sub RM_Click(sender As Object, e As EventArgs) Handles RM.Click
+        Log.Text = ("Rebooting to Meta Mode..")
         Process.Start("cmd", "/c fastboot oem reboot-meta")
     End Sub
 
     Private Sub RM2_Click(sender As Object, e As EventArgs) Handles RM2.Click
+        Log.Text = ("Rebooting to Meta Mode..")
         Process.Start("cmd", "/c fastboot oem reboot-meta")
     End Sub
 
     Private Sub RM3_Click(sender As Object, e As EventArgs) Handles RM3.Click
+        Log.Text = ("Rebooting to Meta Mode..")
         Process.Start("cmd", "/c fastboot oem reboot-meta")
     End Sub
 
     Private Sub RM4_Click(sender As Object, e As EventArgs) Handles RM4.Click
+        Log.Text = ("Rebooting to Meta Mode..")
         Process.Start("cmd", "/c fastboot oem reboot-meta")
     End Sub
 
     Private Sub RPO_Click(sender As Object, e As EventArgs) Handles RPO.Click
+        Log.Text = ("Powering Down..")
         Process.Start("cmd", "/c fastboot oem powerdown")
     End Sub
 
     Private Sub RPO2_Click(sender As Object, e As EventArgs) Handles RPO2.Click
+        Log.Text = ("Powering Down..")
         Process.Start("cmd", "/c fastboot oem powerdown")
     End Sub
 
     Private Sub RPO3_Click(sender As Object, e As EventArgs) Handles RPO3.Click
+        Log.Text = ("Powering Down..")
         Process.Start("cmd", "/c fastboot oem powerdown")
     End Sub
 
     Private Sub RPO4_Click(sender As Object, e As EventArgs) Handles RPO4.Click
+        Log.Text = ("Powering Down..")
         Process.Start("cmd", "/c fastboot oem powerdown")
     End Sub
 
@@ -252,14 +264,17 @@
     End Sub
 
     Private Sub WriteRec_Click(sender As Object, e As EventArgs) Handles WriteRec.Click
+        Log.Text = ("Flashing Recovery..")
         Process.Start("cmd", "/k fastboot flash recovery " + Chr(34) + FlashPath.Text + Chr(34))
     End Sub
 
     Private Sub WriteBoot_Click(sender As Object, e As EventArgs) Handles WriteBoot.Click
+        Log.Text = ("Flashing Boot..")
         Process.Start("cmd", "/k fastboot flash boot " + Chr(34) + FlashPath.Text + Chr(34))
     End Sub
 
     Private Sub WriteHOSD_Click(sender As Object, e As EventArgs) Handles WriteHOSD.Click
+        Log.Text = ("Flashing HOSD..")
         Process.Start("cmd", "/k fastboot flash hosd " + Chr(34) + FlashPath.Text + Chr(34))
     End Sub
 
@@ -285,26 +300,32 @@
     End Sub
 
     Private Sub RI1_Click(sender As Object, e As EventArgs) Handles RI1.Click
+        Log.Text = ("Reading IMEI..")
         Process.Start("cmd", "/k fastboot getvar imei")
     End Sub
 
     Private Sub RI2_Click(sender As Object, e As EventArgs) Handles RI2.Click
+        Log.Text = ("Reading IMEI 2..")
         Process.Start("cmd", "/k fastboot getvar imei2")
     End Sub
 
     Private Sub WriteImei1_Click(sender As Object, e As EventArgs) Handles WriteImei1.Click
+        Log.Text = ("Writing IMEI..")
         Process.Start("cmd", "/k fastboot oem writeimei " + WImei1.Text)
     End Sub
 
     Private Sub WriteImei2_Click(sender As Object, e As EventArgs) Handles WriteImei2.Click
+        Log.Text = ("Writing IMEI 2..")
         Process.Start("cmd", "/k fastboot oem writeimei2 " + WImei2.Text)
     End Sub
 
     Private Sub RMeid_Click(sender As Object, e As EventArgs) Handles RMeid.Click
+        Log.Text = ("Reading MEID..")
         Process.Start("cmd", "/k fastboot getvar meid")
     End Sub
 
     Private Sub WriteMeid_Click(sender As Object, e As EventArgs) Handles WriteMeid.Click
+        Log.Text = ("Writing MEID..")
         Process.Start("cmd", "/k fastboot oem writemeid " + WMeid.Text)
     End Sub
 
@@ -320,6 +341,7 @@
     End Sub
 
     Private Sub CheckADB_Click(sender As Object, e As EventArgs) Handles CheckADB.Click
+        Log.Text = ("Checking Devices..")
         Process.Start("cmd", "/k adb devices").WaitForExit()
     End Sub
 
