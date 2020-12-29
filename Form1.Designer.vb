@@ -124,6 +124,7 @@ Partial Class Form1
         Me.R_B_A = New ZtcTool_Lite.ReactorButton()
         Me.ReactorButton61 = New ZtcTool_Lite.ReactorButton()
         Me.CheckADB = New ZtcTool_Lite.ReactorButton()
+        Me.ReactorButton2 = New ZtcTool_Lite.ReactorButton()
         Me.ReactorTheme1.SuspendLayout()
         Me.ReactorTabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -171,8 +172,9 @@ Partial Class Form1
         Me.ReactorTheme1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ReactorTheme1.Font = New System.Drawing.Font("Verdana", 6.75!)
         Me.ReactorTheme1.Location = New System.Drawing.Point(0, 0)
+        Me.ReactorTheme1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReactorTheme1.Name = "ReactorTheme1"
-        Me.ReactorTheme1.Size = New System.Drawing.Size(469, 658)
+        Me.ReactorTheme1.Size = New System.Drawing.Size(352, 535)
         Me.ReactorTheme1.TabIndex = 0
         Me.ReactorTheme1.Text = "ZtcTool_Lite v1.07"
         '
@@ -181,9 +183,10 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label3.Location = New System.Drawing.Point(47, 629)
+        Me.Label3.Location = New System.Drawing.Point(35, 511)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(355, 14)
+        Me.Label3.Size = New System.Drawing.Size(284, 12)
         Me.Label3.TabIndex = 23
         Me.Label3.Text = "* - You need Java Card or Xtc2         ** - You need s-off"
         '
@@ -192,10 +195,11 @@ Partial Class Form1
         Me.Log.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer))
         Me.Log.Font = New System.Drawing.Font("Verdana", 6.75!, System.Drawing.FontStyle.Bold)
         Me.Log.ForeColor = System.Drawing.Color.Red
-        Me.Log.Location = New System.Drawing.Point(16, 597)
+        Me.Log.Location = New System.Drawing.Point(12, 485)
+        Me.Log.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Log.MaxCharacters = 32767
         Me.Log.Name = "Log"
-        Me.Log.Size = New System.Drawing.Size(439, 25)
+        Me.Log.Size = New System.Drawing.Size(329, 22)
         Me.Log.TabIndex = 3
         Me.Log.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.Log.UsePasswordMask = False
@@ -207,10 +211,11 @@ Partial Class Form1
         Me.ReactorTabControl1.Controls.Add(Me.TabPage3)
         Me.ReactorTabControl1.Controls.Add(Me.TabPage4)
         Me.ReactorTabControl1.Controls.Add(Me.TabPage5)
-        Me.ReactorTabControl1.Location = New System.Drawing.Point(12, 41)
+        Me.ReactorTabControl1.Location = New System.Drawing.Point(9, 33)
+        Me.ReactorTabControl1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReactorTabControl1.Name = "ReactorTabControl1"
         Me.ReactorTabControl1.SelectedIndex = 0
-        Me.ReactorTabControl1.Size = New System.Drawing.Size(447, 550)
+        Me.ReactorTabControl1.Size = New System.Drawing.Size(335, 447)
         Me.ReactorTabControl1.TabBorderColor = System.Drawing.Color.White
         Me.ReactorTabControl1.TabIndex = 2
         Me.ReactorTabControl1.TabTextColor = System.Drawing.Color.White
@@ -236,10 +241,11 @@ Partial Class Form1
         Me.TabPage1.Controls.Add(Me.Son)
         Me.TabPage1.Controls.Add(Me.Soff)
         Me.TabPage1.Controls.Add(Me.R_Info2)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(439, 517)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage1.Size = New System.Drawing.Size(327, 418)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "MAIN"
         '
@@ -247,9 +253,10 @@ Partial Class Form1
         '
         Me.ReactorButton1.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.ReactorButton1.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.ReactorButton1.Location = New System.Drawing.Point(334, 366)
+        Me.ReactorButton1.Location = New System.Drawing.Point(250, 297)
+        Me.ReactorButton1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReactorButton1.Name = "ReactorButton1"
-        Me.ReactorButton1.Size = New System.Drawing.Size(75, 23)
+        Me.ReactorButton1.Size = New System.Drawing.Size(56, 19)
         Me.ReactorButton1.TabIndex = 17
         Me.ReactorButton1.Text = "CMD"
         '
@@ -257,10 +264,11 @@ Partial Class Form1
         '
         Me.unFilePath.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer))
         Me.unFilePath.ForeColor = System.Drawing.Color.White
-        Me.unFilePath.Location = New System.Drawing.Point(47, 320)
+        Me.unFilePath.Location = New System.Drawing.Point(35, 260)
+        Me.unFilePath.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.unFilePath.MaxCharacters = 32767
         Me.unFilePath.Name = "unFilePath"
-        Me.unFilePath.Size = New System.Drawing.Size(330, 25)
+        Me.unFilePath.Size = New System.Drawing.Size(248, 22)
         Me.unFilePath.TabIndex = 16
         Me.unFilePath.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.unFilePath.UsePasswordMask = False
@@ -276,9 +284,10 @@ Partial Class Form1
         Me.ReactorGroupBox1.Controls.Add(Me.RD)
         Me.ReactorGroupBox1.Controls.Add(Me.RR)
         Me.ReactorGroupBox1.Controls.Add(Me.RB)
-        Me.ReactorGroupBox1.Location = New System.Drawing.Point(6, 395)
+        Me.ReactorGroupBox1.Location = New System.Drawing.Point(4, 321)
+        Me.ReactorGroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReactorGroupBox1.Name = "ReactorGroupBox1"
-        Me.ReactorGroupBox1.Size = New System.Drawing.Size(427, 116)
+        Me.ReactorGroupBox1.Size = New System.Drawing.Size(320, 94)
         Me.ReactorGroupBox1.TabIndex = 15
         Me.ReactorGroupBox1.Text = "Reboot option"
         '
@@ -286,9 +295,10 @@ Partial Class Form1
         '
         Me.RPO.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RPO.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RPO.Location = New System.Drawing.Point(297, 72)
+        Me.RPO.Location = New System.Drawing.Point(223, 58)
+        Me.RPO.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RPO.Name = "RPO"
-        Me.RPO.Size = New System.Drawing.Size(106, 32)
+        Me.RPO.Size = New System.Drawing.Size(80, 26)
         Me.RPO.TabIndex = 6
         Me.RPO.Text = "Power off"
         '
@@ -296,9 +306,10 @@ Partial Class Form1
         '
         Me.RM.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RM.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RM.Location = New System.Drawing.Point(216, 72)
+        Me.RM.Location = New System.Drawing.Point(162, 58)
+        Me.RM.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RM.Name = "RM"
-        Me.RM.Size = New System.Drawing.Size(75, 32)
+        Me.RM.Size = New System.Drawing.Size(56, 26)
         Me.RM.TabIndex = 5
         Me.RM.Text = "META"
         '
@@ -306,9 +317,10 @@ Partial Class Form1
         '
         Me.RF.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RF.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RF.Location = New System.Drawing.Point(119, 72)
+        Me.RF.Location = New System.Drawing.Point(89, 58)
+        Me.RF.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RF.Name = "RF"
-        Me.RF.Size = New System.Drawing.Size(90, 32)
+        Me.RF.Size = New System.Drawing.Size(68, 26)
         Me.RF.TabIndex = 4
         Me.RF.Text = "FTM"
         '
@@ -316,9 +328,10 @@ Partial Class Form1
         '
         Me.RS.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RS.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RS.Location = New System.Drawing.Point(22, 72)
+        Me.RS.Location = New System.Drawing.Point(16, 58)
+        Me.RS.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RS.Name = "RS"
-        Me.RS.Size = New System.Drawing.Size(91, 32)
+        Me.RS.Size = New System.Drawing.Size(68, 26)
         Me.RS.TabIndex = 3
         Me.RS.Text = "System"
         '
@@ -326,9 +339,10 @@ Partial Class Form1
         '
         Me.RD.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RD.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RD.Location = New System.Drawing.Point(297, 34)
+        Me.RD.Location = New System.Drawing.Point(223, 28)
+        Me.RD.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RD.Name = "RD"
-        Me.RD.Size = New System.Drawing.Size(106, 32)
+        Me.RD.Size = New System.Drawing.Size(80, 26)
         Me.RD.TabIndex = 2
         Me.RD.Text = "Download"
         '
@@ -336,9 +350,10 @@ Partial Class Form1
         '
         Me.RR.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RR.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RR.Location = New System.Drawing.Point(215, 34)
+        Me.RR.Location = New System.Drawing.Point(161, 28)
+        Me.RR.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RR.Name = "RR"
-        Me.RR.Size = New System.Drawing.Size(76, 32)
+        Me.RR.Size = New System.Drawing.Size(57, 26)
         Me.RR.TabIndex = 1
         Me.RR.Text = "RUU"
         '
@@ -346,9 +361,10 @@ Partial Class Form1
         '
         Me.RB.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RB.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RB.Location = New System.Drawing.Point(22, 34)
+        Me.RB.Location = New System.Drawing.Point(16, 28)
+        Me.RB.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RB.Name = "RB"
-        Me.RB.Size = New System.Drawing.Size(187, 32)
+        Me.RB.Size = New System.Drawing.Size(140, 26)
         Me.RB.TabIndex = 0
         Me.RB.Text = "Bootloader"
         '
@@ -356,9 +372,10 @@ Partial Class Form1
         '
         Me.EraseCFG.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.EraseCFG.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.EraseCFG.Location = New System.Drawing.Point(221, 282)
+        Me.EraseCFG.Location = New System.Drawing.Point(166, 229)
+        Me.EraseCFG.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.EraseCFG.Name = "EraseCFG"
-        Me.EraseCFG.Size = New System.Drawing.Size(188, 32)
+        Me.EraseCFG.Size = New System.Drawing.Size(141, 26)
         Me.EraseCFG.TabIndex = 14
         Me.EraseCFG.Text = "Erase Configuration"
         '
@@ -366,9 +383,10 @@ Partial Class Form1
         '
         Me.HB_Mode.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.HB_Mode.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.HB_Mode.Location = New System.Drawing.Point(28, 282)
+        Me.HB_Mode.Location = New System.Drawing.Point(21, 229)
+        Me.HB_Mode.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.HB_Mode.Name = "HB_Mode"
-        Me.HB_Mode.Size = New System.Drawing.Size(187, 32)
+        Me.HB_Mode.Size = New System.Drawing.Size(140, 26)
         Me.HB_Mode.TabIndex = 13
         Me.HB_Mode.Text = "HBOOT Mode"
         '
@@ -376,9 +394,10 @@ Partial Class Form1
         '
         Me.LockB.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.LockB.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.LockB.Location = New System.Drawing.Point(221, 244)
+        Me.LockB.Location = New System.Drawing.Point(166, 198)
+        Me.LockB.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.LockB.Name = "LockB"
-        Me.LockB.Size = New System.Drawing.Size(188, 32)
+        Me.LockB.Size = New System.Drawing.Size(141, 26)
         Me.LockB.TabIndex = 12
         Me.LockB.Text = "Lock Bootloader"
         '
@@ -386,9 +405,10 @@ Partial Class Form1
         '
         Me.UnB.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.UnB.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.UnB.Location = New System.Drawing.Point(28, 244)
+        Me.UnB.Location = New System.Drawing.Point(21, 198)
+        Me.UnB.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.UnB.Name = "UnB"
-        Me.UnB.Size = New System.Drawing.Size(187, 32)
+        Me.UnB.Size = New System.Drawing.Size(140, 26)
         Me.UnB.TabIndex = 11
         Me.UnB.Text = "Unlock Bootloader"
         '
@@ -396,9 +416,10 @@ Partial Class Form1
         '
         Me.GT.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.GT.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.GT.Location = New System.Drawing.Point(221, 206)
+        Me.GT.Location = New System.Drawing.Point(166, 167)
+        Me.GT.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GT.Name = "GT"
-        Me.GT.Size = New System.Drawing.Size(188, 32)
+        Me.GT.Size = New System.Drawing.Size(141, 26)
         Me.GT.TabIndex = 10
         Me.GT.Text = "Get Token"
         '
@@ -406,9 +427,10 @@ Partial Class Form1
         '
         Me.GOC.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.GOC.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.GOC.Location = New System.Drawing.Point(28, 206)
+        Me.GOC.Location = New System.Drawing.Point(21, 167)
+        Me.GOC.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GOC.Name = "GOC"
-        Me.GOC.Size = New System.Drawing.Size(187, 32)
+        Me.GOC.Size = New System.Drawing.Size(140, 26)
         Me.GOC.TabIndex = 9
         Me.GOC.Text = "Get OEM Command"
         '
@@ -416,9 +438,10 @@ Partial Class Form1
         '
         Me.SL3.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.SL3.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.SL3.Location = New System.Drawing.Point(286, 168)
+        Me.SL3.Location = New System.Drawing.Point(214, 136)
+        Me.SL3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.SL3.Name = "SL3"
-        Me.SL3.Size = New System.Drawing.Size(123, 32)
+        Me.SL3.Size = New System.Drawing.Size(92, 26)
         Me.SL3.TabIndex = 8
         Me.SL3.Text = "Simlock v3 **"
         '
@@ -426,9 +449,10 @@ Partial Class Form1
         '
         Me.SL2.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.SL2.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.SL2.Location = New System.Drawing.Point(157, 168)
+        Me.SL2.Location = New System.Drawing.Point(118, 136)
+        Me.SL2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.SL2.Name = "SL2"
-        Me.SL2.Size = New System.Drawing.Size(123, 32)
+        Me.SL2.Size = New System.Drawing.Size(92, 26)
         Me.SL2.TabIndex = 7
         Me.SL2.Text = "Simlock v2 **"
         '
@@ -436,9 +460,10 @@ Partial Class Form1
         '
         Me.SL1.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.SL1.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.SL1.Location = New System.Drawing.Point(28, 168)
+        Me.SL1.Location = New System.Drawing.Point(21, 136)
+        Me.SL1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.SL1.Name = "SL1"
-        Me.SL1.Size = New System.Drawing.Size(123, 32)
+        Me.SL1.Size = New System.Drawing.Size(92, 26)
         Me.SL1.TabIndex = 6
         Me.SL1.Text = "Simlock v1 **"
         '
@@ -446,9 +471,10 @@ Partial Class Form1
         '
         Me.ResetFRP.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.ResetFRP.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.ResetFRP.Location = New System.Drawing.Point(28, 130)
+        Me.ResetFRP.Location = New System.Drawing.Point(21, 106)
+        Me.ResetFRP.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ResetFRP.Name = "ResetFRP"
-        Me.ResetFRP.Size = New System.Drawing.Size(381, 32)
+        Me.ResetFRP.Size = New System.Drawing.Size(286, 26)
         Me.ResetFRP.TabIndex = 5
         Me.ResetFRP.Text = "Reset FRP Lock **"
         '
@@ -456,9 +482,10 @@ Partial Class Form1
         '
         Me.ReactorButton4.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.ReactorButton4.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.ReactorButton4.Location = New System.Drawing.Point(221, 92)
+        Me.ReactorButton4.Location = New System.Drawing.Point(166, 75)
+        Me.ReactorButton4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReactorButton4.Name = "ReactorButton4"
-        Me.ReactorButton4.Size = New System.Drawing.Size(188, 32)
+        Me.ReactorButton4.Size = New System.Drawing.Size(141, 26)
         Me.ReactorButton4.TabIndex = 4
         Me.ReactorButton4.Text = "Write CID **"
         '
@@ -470,9 +497,10 @@ Partial Class Form1
         Me.CidName.ForeColor = System.Drawing.Color.White
         Me.CidName.FormattingEnabled = True
         Me.CidName.Items.AddRange(New Object() {"HTC__032", "HTC__034", "HTC__001", "11111111", "BOUYG201", "BSTAR301", "BSTAR306", "BSTAR307", "BSTAR308", "BSTAR502", "CHT__601", "CWS__001", "DAVE_001", "DOCOM801", "DOPOD701", "FASTW401", "GOOGL001", "H3G__001", "H3G__003", "H3G__106", "H3G__402", "H3G__F05", "H3G__G04", "HTC__016", "HTC__023", "HTC__037", "HTC__038", "HTC__044", "HTC__052", "HTC__102", "HTC__203", "HTC__247", "HTC__249", "HTC__304", "HTC__405", "HTC__506", "HTC__621", "HTC__622", "HTC__A07", "HTC__B25", "HTC__C24", "HTC__E11", "HTC__E41", "HTC__F08", "HTC__G09", "HTC__H10", "HTC__J15", "HTC__M27", "HTC__N34", "HTC__Y13", "HTCCN701", "HTCCN702", "HTCCN703", "HUTCH001", "KT___901", "O2___001", "O2___102", "OPTUS001", "ORANG001", "ORANG006", "ORANG008", "ORANG012", "ORANG104", "ORANG113", "ORANG202", "ORANG203", "ORANG309", "ORANGB09", "ORANGB10", "ROGER001", "SKT__901", "SMCVD001", "TELEF301", "TELST001", "TELUS001", "TIM__401", "T-MOB005", "T-MOB009", "T-MOB010", "T-MOB102", "VIDEO001", "VIRGI001", "VODAP001", "VODAP006", "VODAP015", "VODAP019", "VODAP021", "VODAP022", "VODAP024", "VODAP026", "VODAP102", "VODAP110", "VODAP120", "VODAP129", "VODAP203", "VODAP212", "VODAP304", "VODAP405", "VODAP416", "VODAPA30", "VODAPD18", "VODAPE17", "VODAPM27"})
-        Me.CidName.Location = New System.Drawing.Point(28, 96)
+        Me.CidName.Location = New System.Drawing.Point(21, 78)
+        Me.CidName.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.CidName.Name = "CidName"
-        Me.CidName.Size = New System.Drawing.Size(187, 22)
+        Me.CidName.Size = New System.Drawing.Size(141, 19)
         Me.CidName.StartIndex = 0
         Me.CidName.TabIndex = 3
         '
@@ -480,9 +508,10 @@ Partial Class Form1
         '
         Me.Son.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.Son.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.Son.Location = New System.Drawing.Point(221, 54)
+        Me.Son.Location = New System.Drawing.Point(166, 44)
+        Me.Son.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Son.Name = "Son"
-        Me.Son.Size = New System.Drawing.Size(188, 32)
+        Me.Son.Size = New System.Drawing.Size(141, 26)
         Me.Son.TabIndex = 2
         Me.Son.Text = "Security On (S-ON)"
         '
@@ -490,9 +519,10 @@ Partial Class Form1
         '
         Me.Soff.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.Soff.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.Soff.Location = New System.Drawing.Point(28, 54)
+        Me.Soff.Location = New System.Drawing.Point(21, 44)
+        Me.Soff.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Soff.Name = "Soff"
-        Me.Soff.Size = New System.Drawing.Size(187, 32)
+        Me.Soff.Size = New System.Drawing.Size(140, 26)
         Me.Soff.TabIndex = 1
         Me.Soff.Text = "Security Off (S-OFF) *"
         '
@@ -500,9 +530,10 @@ Partial Class Form1
         '
         Me.R_Info2.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.R_Info2.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.R_Info2.Location = New System.Drawing.Point(28, 15)
+        Me.R_Info2.Location = New System.Drawing.Point(21, 12)
+        Me.R_Info2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.R_Info2.Name = "R_Info2"
-        Me.R_Info2.Size = New System.Drawing.Size(381, 32)
+        Me.R_Info2.Size = New System.Drawing.Size(286, 26)
         Me.R_Info2.TabIndex = 0
         Me.R_Info2.Text = "Read Info"
         '
@@ -518,10 +549,11 @@ Partial Class Form1
         Me.TabPage2.Controls.Add(Me.FlashPath)
         Me.TabPage2.Controls.Add(Me.R_Info)
         Me.TabPage2.Controls.Add(Me.ReactorGroupBox2)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(439, 517)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage2.Size = New System.Drawing.Size(327, 418)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "FLASH"
         '
@@ -535,9 +567,10 @@ Partial Class Form1
         Me.ReactorGroupBox5.Controls.Add(Me.RB_Rec)
         Me.ReactorGroupBox5.Controls.Add(Me.RB_UD)
         Me.ReactorGroupBox5.Controls.Add(Me.RB_Sys)
-        Me.ReactorGroupBox5.Location = New System.Drawing.Point(28, 221)
+        Me.ReactorGroupBox5.Location = New System.Drawing.Point(21, 180)
+        Me.ReactorGroupBox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReactorGroupBox5.Name = "ReactorGroupBox5"
-        Me.ReactorGroupBox5.Size = New System.Drawing.Size(381, 149)
+        Me.ReactorGroupBox5.Size = New System.Drawing.Size(286, 121)
         Me.ReactorGroupBox5.TabIndex = 24
         Me.ReactorGroupBox5.Text = "Erase Partition **"
         '
@@ -545,9 +578,10 @@ Partial Class Form1
         '
         Me.EraseP.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.EraseP.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.EraseP.Location = New System.Drawing.Point(261, 42)
+        Me.EraseP.Location = New System.Drawing.Point(196, 34)
+        Me.EraseP.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.EraseP.Name = "EraseP"
-        Me.EraseP.Size = New System.Drawing.Size(98, 84)
+        Me.EraseP.Size = New System.Drawing.Size(74, 68)
         Me.EraseP.TabIndex = 6
         Me.EraseP.Text = "Erase"
         '
@@ -556,9 +590,10 @@ Partial Class Form1
         Me.RB_FRP.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RB_FRP.Checked = False
         Me.RB_FRP.ForeColor = System.Drawing.Color.White
-        Me.RB_FRP.Location = New System.Drawing.Point(158, 42)
+        Me.RB_FRP.Location = New System.Drawing.Point(118, 34)
+        Me.RB_FRP.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RB_FRP.Name = "RB_FRP"
-        Me.RB_FRP.Size = New System.Drawing.Size(75, 16)
+        Me.RB_FRP.Size = New System.Drawing.Size(56, 13)
         Me.RB_FRP.TabIndex = 5
         Me.RB_FRP.Text = "FRP"
         '
@@ -567,9 +602,10 @@ Partial Class Form1
         Me.RB_Cache.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RB_Cache.Checked = False
         Me.RB_Cache.ForeColor = System.Drawing.Color.White
-        Me.RB_Cache.Location = New System.Drawing.Point(158, 110)
+        Me.RB_Cache.Location = New System.Drawing.Point(118, 89)
+        Me.RB_Cache.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RB_Cache.Name = "RB_Cache"
-        Me.RB_Cache.Size = New System.Drawing.Size(75, 16)
+        Me.RB_Cache.Size = New System.Drawing.Size(56, 13)
         Me.RB_Cache.TabIndex = 4
         Me.RB_Cache.Text = "Cache"
         '
@@ -578,9 +614,10 @@ Partial Class Form1
         Me.RB_Boot.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RB_Boot.Checked = False
         Me.RB_Boot.ForeColor = System.Drawing.Color.White
-        Me.RB_Boot.Location = New System.Drawing.Point(158, 76)
+        Me.RB_Boot.Location = New System.Drawing.Point(118, 62)
+        Me.RB_Boot.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RB_Boot.Name = "RB_Boot"
-        Me.RB_Boot.Size = New System.Drawing.Size(75, 16)
+        Me.RB_Boot.Size = New System.Drawing.Size(56, 13)
         Me.RB_Boot.TabIndex = 3
         Me.RB_Boot.Text = "Boot"
         '
@@ -589,9 +626,10 @@ Partial Class Form1
         Me.RB_Rec.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RB_Rec.Checked = False
         Me.RB_Rec.ForeColor = System.Drawing.Color.White
-        Me.RB_Rec.Location = New System.Drawing.Point(16, 110)
+        Me.RB_Rec.Location = New System.Drawing.Point(12, 89)
+        Me.RB_Rec.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RB_Rec.Name = "RB_Rec"
-        Me.RB_Rec.Size = New System.Drawing.Size(75, 16)
+        Me.RB_Rec.Size = New System.Drawing.Size(56, 13)
         Me.RB_Rec.TabIndex = 2
         Me.RB_Rec.Text = "Recovery"
         '
@@ -600,9 +638,10 @@ Partial Class Form1
         Me.RB_UD.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RB_UD.Checked = False
         Me.RB_UD.ForeColor = System.Drawing.Color.White
-        Me.RB_UD.Location = New System.Drawing.Point(16, 76)
+        Me.RB_UD.Location = New System.Drawing.Point(12, 62)
+        Me.RB_UD.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RB_UD.Name = "RB_UD"
-        Me.RB_UD.Size = New System.Drawing.Size(75, 16)
+        Me.RB_UD.Size = New System.Drawing.Size(56, 13)
         Me.RB_UD.TabIndex = 1
         Me.RB_UD.Text = "UserData"
         '
@@ -611,9 +650,10 @@ Partial Class Form1
         Me.RB_Sys.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RB_Sys.Checked = False
         Me.RB_Sys.ForeColor = System.Drawing.Color.White
-        Me.RB_Sys.Location = New System.Drawing.Point(16, 42)
+        Me.RB_Sys.Location = New System.Drawing.Point(12, 34)
+        Me.RB_Sys.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RB_Sys.Name = "RB_Sys"
-        Me.RB_Sys.Size = New System.Drawing.Size(86, 16)
+        Me.RB_Sys.Size = New System.Drawing.Size(64, 13)
         Me.RB_Sys.TabIndex = 0
         Me.RB_Sys.Text = "System"
         '
@@ -621,9 +661,10 @@ Partial Class Form1
         '
         Me.WriteHOSD.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.WriteHOSD.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.WriteHOSD.Location = New System.Drawing.Point(28, 173)
+        Me.WriteHOSD.Location = New System.Drawing.Point(21, 141)
+        Me.WriteHOSD.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.WriteHOSD.Name = "WriteHOSD"
-        Me.WriteHOSD.Size = New System.Drawing.Size(381, 32)
+        Me.WriteHOSD.Size = New System.Drawing.Size(286, 26)
         Me.WriteHOSD.TabIndex = 23
         Me.WriteHOSD.Text = "Flash HOSD"
         '
@@ -631,9 +672,10 @@ Partial Class Form1
         '
         Me.WriteBoot.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.WriteBoot.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.WriteBoot.Location = New System.Drawing.Point(221, 135)
+        Me.WriteBoot.Location = New System.Drawing.Point(166, 110)
+        Me.WriteBoot.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.WriteBoot.Name = "WriteBoot"
-        Me.WriteBoot.Size = New System.Drawing.Size(188, 32)
+        Me.WriteBoot.Size = New System.Drawing.Size(141, 26)
         Me.WriteBoot.TabIndex = 22
         Me.WriteBoot.Text = "Flash Boot **"
         '
@@ -641,9 +683,10 @@ Partial Class Form1
         '
         Me.WriteRec.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.WriteRec.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.WriteRec.Location = New System.Drawing.Point(28, 135)
+        Me.WriteRec.Location = New System.Drawing.Point(21, 110)
+        Me.WriteRec.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.WriteRec.Name = "WriteRec"
-        Me.WriteRec.Size = New System.Drawing.Size(187, 32)
+        Me.WriteRec.Size = New System.Drawing.Size(140, 26)
         Me.WriteRec.TabIndex = 21
         Me.WriteRec.Text = "Flash Recovery **"
         '
@@ -651,9 +694,10 @@ Partial Class Form1
         '
         Me.WriteOS.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.WriteOS.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.WriteOS.Location = New System.Drawing.Point(28, 94)
+        Me.WriteOS.Location = New System.Drawing.Point(21, 76)
+        Me.WriteOS.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.WriteOS.Name = "WriteOS"
-        Me.WriteOS.Size = New System.Drawing.Size(381, 35)
+        Me.WriteOS.Size = New System.Drawing.Size(286, 28)
         Me.WriteOS.TabIndex = 20
         Me.WriteOS.Text = "Flash Firmware ZIP"
         '
@@ -661,9 +705,10 @@ Partial Class Form1
         '
         Me.ReactorButton46.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.ReactorButton46.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.ReactorButton46.Location = New System.Drawing.Point(334, 60)
+        Me.ReactorButton46.Location = New System.Drawing.Point(250, 49)
+        Me.ReactorButton46.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReactorButton46.Name = "ReactorButton46"
-        Me.ReactorButton46.Size = New System.Drawing.Size(75, 32)
+        Me.ReactorButton46.Size = New System.Drawing.Size(56, 26)
         Me.ReactorButton46.TabIndex = 19
         Me.ReactorButton46.Text = "..."
         '
@@ -671,10 +716,11 @@ Partial Class Form1
         '
         Me.FlashPath.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer))
         Me.FlashPath.ForeColor = System.Drawing.Color.White
-        Me.FlashPath.Location = New System.Drawing.Point(28, 63)
+        Me.FlashPath.Location = New System.Drawing.Point(21, 51)
+        Me.FlashPath.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.FlashPath.MaxCharacters = 32767
         Me.FlashPath.Name = "FlashPath"
-        Me.FlashPath.Size = New System.Drawing.Size(300, 25)
+        Me.FlashPath.Size = New System.Drawing.Size(225, 20)
         Me.FlashPath.TabIndex = 18
         Me.FlashPath.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.FlashPath.UsePasswordMask = False
@@ -683,9 +729,10 @@ Partial Class Form1
         '
         Me.R_Info.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.R_Info.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.R_Info.Location = New System.Drawing.Point(28, 15)
+        Me.R_Info.Location = New System.Drawing.Point(21, 12)
+        Me.R_Info.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.R_Info.Name = "R_Info"
-        Me.R_Info.Size = New System.Drawing.Size(381, 32)
+        Me.R_Info.Size = New System.Drawing.Size(286, 26)
         Me.R_Info.TabIndex = 17
         Me.R_Info.Text = "Read Info"
         '
@@ -699,9 +746,10 @@ Partial Class Form1
         Me.ReactorGroupBox2.Controls.Add(Me.RD2)
         Me.ReactorGroupBox2.Controls.Add(Me.RR2)
         Me.ReactorGroupBox2.Controls.Add(Me.RB2)
-        Me.ReactorGroupBox2.Location = New System.Drawing.Point(6, 395)
+        Me.ReactorGroupBox2.Location = New System.Drawing.Point(4, 321)
+        Me.ReactorGroupBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReactorGroupBox2.Name = "ReactorGroupBox2"
-        Me.ReactorGroupBox2.Size = New System.Drawing.Size(427, 116)
+        Me.ReactorGroupBox2.Size = New System.Drawing.Size(320, 94)
         Me.ReactorGroupBox2.TabIndex = 16
         Me.ReactorGroupBox2.Text = "Reboot option"
         '
@@ -709,9 +757,10 @@ Partial Class Form1
         '
         Me.RPO2.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RPO2.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RPO2.Location = New System.Drawing.Point(297, 72)
+        Me.RPO2.Location = New System.Drawing.Point(223, 58)
+        Me.RPO2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RPO2.Name = "RPO2"
-        Me.RPO2.Size = New System.Drawing.Size(106, 32)
+        Me.RPO2.Size = New System.Drawing.Size(80, 26)
         Me.RPO2.TabIndex = 6
         Me.RPO2.Text = "Power off"
         '
@@ -719,9 +768,10 @@ Partial Class Form1
         '
         Me.RM2.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RM2.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RM2.Location = New System.Drawing.Point(216, 72)
+        Me.RM2.Location = New System.Drawing.Point(162, 58)
+        Me.RM2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RM2.Name = "RM2"
-        Me.RM2.Size = New System.Drawing.Size(75, 32)
+        Me.RM2.Size = New System.Drawing.Size(56, 26)
         Me.RM2.TabIndex = 5
         Me.RM2.Text = "META"
         '
@@ -729,9 +779,10 @@ Partial Class Form1
         '
         Me.RF2.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RF2.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RF2.Location = New System.Drawing.Point(119, 72)
+        Me.RF2.Location = New System.Drawing.Point(89, 58)
+        Me.RF2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RF2.Name = "RF2"
-        Me.RF2.Size = New System.Drawing.Size(90, 32)
+        Me.RF2.Size = New System.Drawing.Size(68, 26)
         Me.RF2.TabIndex = 4
         Me.RF2.Text = "FTM"
         '
@@ -739,9 +790,10 @@ Partial Class Form1
         '
         Me.RS2.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RS2.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RS2.Location = New System.Drawing.Point(22, 72)
+        Me.RS2.Location = New System.Drawing.Point(16, 58)
+        Me.RS2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RS2.Name = "RS2"
-        Me.RS2.Size = New System.Drawing.Size(91, 32)
+        Me.RS2.Size = New System.Drawing.Size(68, 26)
         Me.RS2.TabIndex = 3
         Me.RS2.Text = "System"
         '
@@ -749,9 +801,10 @@ Partial Class Form1
         '
         Me.RD2.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RD2.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RD2.Location = New System.Drawing.Point(297, 34)
+        Me.RD2.Location = New System.Drawing.Point(223, 28)
+        Me.RD2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RD2.Name = "RD2"
-        Me.RD2.Size = New System.Drawing.Size(106, 32)
+        Me.RD2.Size = New System.Drawing.Size(80, 26)
         Me.RD2.TabIndex = 2
         Me.RD2.Text = "Download"
         '
@@ -759,9 +812,10 @@ Partial Class Form1
         '
         Me.RR2.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RR2.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RR2.Location = New System.Drawing.Point(215, 34)
+        Me.RR2.Location = New System.Drawing.Point(161, 28)
+        Me.RR2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RR2.Name = "RR2"
-        Me.RR2.Size = New System.Drawing.Size(76, 32)
+        Me.RR2.Size = New System.Drawing.Size(57, 26)
         Me.RR2.TabIndex = 1
         Me.RR2.Text = "RUU"
         '
@@ -769,9 +823,10 @@ Partial Class Form1
         '
         Me.RB2.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RB2.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RB2.Location = New System.Drawing.Point(22, 34)
+        Me.RB2.Location = New System.Drawing.Point(16, 28)
+        Me.RB2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RB2.Name = "RB2"
-        Me.RB2.Size = New System.Drawing.Size(187, 32)
+        Me.RB2.Size = New System.Drawing.Size(140, 26)
         Me.RB2.TabIndex = 0
         Me.RB2.Text = "Bootloader"
         '
@@ -789,9 +844,10 @@ Partial Class Form1
         Me.TabPage3.Controls.Add(Me.RI1)
         Me.TabPage3.Controls.Add(Me.R_Info3)
         Me.TabPage3.Controls.Add(Me.ReactorGroupBox3)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(439, 517)
+        Me.TabPage3.Size = New System.Drawing.Size(327, 418)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "IMEI"
         '
@@ -799,9 +855,10 @@ Partial Class Form1
         '
         Me.WriteMeid.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.WriteMeid.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.WriteMeid.Location = New System.Drawing.Point(275, 230)
+        Me.WriteMeid.Location = New System.Drawing.Point(206, 187)
+        Me.WriteMeid.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.WriteMeid.Name = "WriteMeid"
-        Me.WriteMeid.Size = New System.Drawing.Size(134, 25)
+        Me.WriteMeid.Size = New System.Drawing.Size(100, 20)
         Me.WriteMeid.TabIndex = 28
         Me.WriteMeid.Text = "Write MEID **"
         '
@@ -809,10 +866,11 @@ Partial Class Form1
         '
         Me.WMeid.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer))
         Me.WMeid.ForeColor = System.Drawing.Color.White
-        Me.WMeid.Location = New System.Drawing.Point(28, 229)
+        Me.WMeid.Location = New System.Drawing.Point(21, 186)
+        Me.WMeid.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.WMeid.MaxCharacters = 32767
         Me.WMeid.Name = "WMeid"
-        Me.WMeid.Size = New System.Drawing.Size(227, 25)
+        Me.WMeid.Size = New System.Drawing.Size(170, 20)
         Me.WMeid.TabIndex = 27
         Me.WMeid.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.WMeid.UsePasswordMask = False
@@ -821,9 +879,10 @@ Partial Class Form1
         '
         Me.RMeid.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RMeid.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RMeid.Location = New System.Drawing.Point(28, 191)
+        Me.RMeid.Location = New System.Drawing.Point(21, 155)
+        Me.RMeid.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RMeid.Name = "RMeid"
-        Me.RMeid.Size = New System.Drawing.Size(381, 32)
+        Me.RMeid.Size = New System.Drawing.Size(286, 26)
         Me.RMeid.TabIndex = 26
         Me.RMeid.Text = "Read MEID"
         '
@@ -831,10 +890,11 @@ Partial Class Form1
         '
         Me.WImei2.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer))
         Me.WImei2.ForeColor = System.Drawing.Color.White
-        Me.WImei2.Location = New System.Drawing.Point(28, 140)
+        Me.WImei2.Location = New System.Drawing.Point(21, 114)
+        Me.WImei2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.WImei2.MaxCharacters = 32767
         Me.WImei2.Name = "WImei2"
-        Me.WImei2.Size = New System.Drawing.Size(227, 25)
+        Me.WImei2.Size = New System.Drawing.Size(170, 20)
         Me.WImei2.TabIndex = 25
         Me.WImei2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.WImei2.UsePasswordMask = False
@@ -843,10 +903,11 @@ Partial Class Form1
         '
         Me.WImei1.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer))
         Me.WImei1.ForeColor = System.Drawing.Color.White
-        Me.WImei1.Location = New System.Drawing.Point(28, 109)
+        Me.WImei1.Location = New System.Drawing.Point(21, 89)
+        Me.WImei1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.WImei1.MaxCharacters = 32767
         Me.WImei1.Name = "WImei1"
-        Me.WImei1.Size = New System.Drawing.Size(227, 25)
+        Me.WImei1.Size = New System.Drawing.Size(170, 20)
         Me.WImei1.TabIndex = 24
         Me.WImei1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.WImei1.UsePasswordMask = False
@@ -855,9 +916,10 @@ Partial Class Form1
         '
         Me.WriteImei2.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.WriteImei2.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.WriteImei2.Location = New System.Drawing.Point(275, 141)
+        Me.WriteImei2.Location = New System.Drawing.Point(206, 115)
+        Me.WriteImei2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.WriteImei2.Name = "WriteImei2"
-        Me.WriteImei2.Size = New System.Drawing.Size(134, 25)
+        Me.WriteImei2.Size = New System.Drawing.Size(100, 20)
         Me.WriteImei2.TabIndex = 23
         Me.WriteImei2.Text = "Write IMEI 2 **"
         '
@@ -865,9 +927,10 @@ Partial Class Form1
         '
         Me.WriteImei1.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.WriteImei1.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.WriteImei1.Location = New System.Drawing.Point(275, 110)
+        Me.WriteImei1.Location = New System.Drawing.Point(206, 89)
+        Me.WriteImei1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.WriteImei1.Name = "WriteImei1"
-        Me.WriteImei1.Size = New System.Drawing.Size(134, 25)
+        Me.WriteImei1.Size = New System.Drawing.Size(100, 20)
         Me.WriteImei1.TabIndex = 22
         Me.WriteImei1.Text = "Write IMEI 1 **"
         '
@@ -875,9 +938,10 @@ Partial Class Form1
         '
         Me.RI2.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RI2.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RI2.Location = New System.Drawing.Point(222, 69)
+        Me.RI2.Location = New System.Drawing.Point(166, 56)
+        Me.RI2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RI2.Name = "RI2"
-        Me.RI2.Size = New System.Drawing.Size(187, 32)
+        Me.RI2.Size = New System.Drawing.Size(140, 26)
         Me.RI2.TabIndex = 19
         Me.RI2.Text = "Read IMEI 2"
         '
@@ -885,9 +949,10 @@ Partial Class Form1
         '
         Me.RI1.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RI1.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RI1.Location = New System.Drawing.Point(28, 69)
+        Me.RI1.Location = New System.Drawing.Point(21, 56)
+        Me.RI1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RI1.Name = "RI1"
-        Me.RI1.Size = New System.Drawing.Size(187, 32)
+        Me.RI1.Size = New System.Drawing.Size(140, 26)
         Me.RI1.TabIndex = 18
         Me.RI1.Text = "Read IMEI 1"
         '
@@ -895,9 +960,10 @@ Partial Class Form1
         '
         Me.R_Info3.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.R_Info3.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.R_Info3.Location = New System.Drawing.Point(28, 15)
+        Me.R_Info3.Location = New System.Drawing.Point(21, 12)
+        Me.R_Info3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.R_Info3.Name = "R_Info3"
-        Me.R_Info3.Size = New System.Drawing.Size(381, 32)
+        Me.R_Info3.Size = New System.Drawing.Size(286, 26)
         Me.R_Info3.TabIndex = 17
         Me.R_Info3.Text = "Read Info"
         '
@@ -911,9 +977,10 @@ Partial Class Form1
         Me.ReactorGroupBox3.Controls.Add(Me.RD3)
         Me.ReactorGroupBox3.Controls.Add(Me.RR3)
         Me.ReactorGroupBox3.Controls.Add(Me.RB3)
-        Me.ReactorGroupBox3.Location = New System.Drawing.Point(6, 395)
+        Me.ReactorGroupBox3.Location = New System.Drawing.Point(4, 321)
+        Me.ReactorGroupBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReactorGroupBox3.Name = "ReactorGroupBox3"
-        Me.ReactorGroupBox3.Size = New System.Drawing.Size(427, 116)
+        Me.ReactorGroupBox3.Size = New System.Drawing.Size(320, 94)
         Me.ReactorGroupBox3.TabIndex = 16
         Me.ReactorGroupBox3.Text = "Reboot option"
         '
@@ -921,9 +988,10 @@ Partial Class Form1
         '
         Me.RPO3.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RPO3.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RPO3.Location = New System.Drawing.Point(297, 72)
+        Me.RPO3.Location = New System.Drawing.Point(223, 58)
+        Me.RPO3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RPO3.Name = "RPO3"
-        Me.RPO3.Size = New System.Drawing.Size(106, 32)
+        Me.RPO3.Size = New System.Drawing.Size(80, 26)
         Me.RPO3.TabIndex = 6
         Me.RPO3.Text = "Power off"
         '
@@ -931,9 +999,10 @@ Partial Class Form1
         '
         Me.RM3.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RM3.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RM3.Location = New System.Drawing.Point(216, 72)
+        Me.RM3.Location = New System.Drawing.Point(162, 58)
+        Me.RM3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RM3.Name = "RM3"
-        Me.RM3.Size = New System.Drawing.Size(75, 32)
+        Me.RM3.Size = New System.Drawing.Size(56, 26)
         Me.RM3.TabIndex = 5
         Me.RM3.Text = "META"
         '
@@ -941,9 +1010,10 @@ Partial Class Form1
         '
         Me.RF3.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RF3.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RF3.Location = New System.Drawing.Point(119, 72)
+        Me.RF3.Location = New System.Drawing.Point(89, 58)
+        Me.RF3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RF3.Name = "RF3"
-        Me.RF3.Size = New System.Drawing.Size(90, 32)
+        Me.RF3.Size = New System.Drawing.Size(68, 26)
         Me.RF3.TabIndex = 4
         Me.RF3.Text = "FTM"
         '
@@ -951,9 +1021,10 @@ Partial Class Form1
         '
         Me.RS3.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RS3.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RS3.Location = New System.Drawing.Point(22, 72)
+        Me.RS3.Location = New System.Drawing.Point(16, 58)
+        Me.RS3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RS3.Name = "RS3"
-        Me.RS3.Size = New System.Drawing.Size(91, 32)
+        Me.RS3.Size = New System.Drawing.Size(68, 26)
         Me.RS3.TabIndex = 3
         Me.RS3.Text = "System"
         '
@@ -961,9 +1032,10 @@ Partial Class Form1
         '
         Me.RD3.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RD3.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RD3.Location = New System.Drawing.Point(297, 34)
+        Me.RD3.Location = New System.Drawing.Point(223, 28)
+        Me.RD3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RD3.Name = "RD3"
-        Me.RD3.Size = New System.Drawing.Size(106, 32)
+        Me.RD3.Size = New System.Drawing.Size(80, 26)
         Me.RD3.TabIndex = 2
         Me.RD3.Text = "Download"
         '
@@ -971,9 +1043,10 @@ Partial Class Form1
         '
         Me.RR3.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RR3.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RR3.Location = New System.Drawing.Point(215, 34)
+        Me.RR3.Location = New System.Drawing.Point(161, 28)
+        Me.RR3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RR3.Name = "RR3"
-        Me.RR3.Size = New System.Drawing.Size(76, 32)
+        Me.RR3.Size = New System.Drawing.Size(57, 26)
         Me.RR3.TabIndex = 1
         Me.RR3.Text = "RUU"
         '
@@ -981,9 +1054,10 @@ Partial Class Form1
         '
         Me.RB3.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RB3.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RB3.Location = New System.Drawing.Point(22, 34)
+        Me.RB3.Location = New System.Drawing.Point(16, 28)
+        Me.RB3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RB3.Name = "RB3"
-        Me.RB3.Size = New System.Drawing.Size(187, 32)
+        Me.RB3.Size = New System.Drawing.Size(140, 26)
         Me.RB3.TabIndex = 0
         Me.RB3.Text = "Bootloader"
         '
@@ -996,9 +1070,10 @@ Partial Class Form1
         Me.TabPage4.Controls.Add(Me.ReadSector)
         Me.TabPage4.Controls.Add(Me.R_Info4)
         Me.TabPage4.Controls.Add(Me.ReactorGroupBox4)
-        Me.TabPage4.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Size = New System.Drawing.Size(439, 517)
+        Me.TabPage4.Size = New System.Drawing.Size(327, 418)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "DATA"
         '
@@ -1006,9 +1081,10 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label1.Location = New System.Drawing.Point(126, 124)
+        Me.Label1.Location = New System.Drawing.Point(94, 101)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(89, 14)
+        Me.Label1.Size = New System.Drawing.Size(71, 12)
         Me.Label1.TabIndex = 22
         Me.Label1.Text = "Enter sector:"
         '
@@ -1016,9 +1092,10 @@ Partial Class Form1
         '
         Me.ReadEMMC.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.ReadEMMC.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.ReadEMMC.Location = New System.Drawing.Point(28, 169)
+        Me.ReadEMMC.Location = New System.Drawing.Point(21, 137)
+        Me.ReadEMMC.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReadEMMC.Name = "ReadEMMC"
-        Me.ReadEMMC.Size = New System.Drawing.Size(381, 72)
+        Me.ReadEMMC.Size = New System.Drawing.Size(286, 58)
         Me.ReadEMMC.TabIndex = 21
         Me.ReadEMMC.Text = "Read Full eMMC **"
         '
@@ -1026,10 +1103,11 @@ Partial Class Form1
         '
         Me.Rsec.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer))
         Me.Rsec.ForeColor = System.Drawing.Color.White
-        Me.Rsec.Location = New System.Drawing.Point(222, 118)
+        Me.Rsec.Location = New System.Drawing.Point(166, 96)
+        Me.Rsec.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Rsec.MaxCharacters = 32767
         Me.Rsec.Name = "Rsec"
-        Me.Rsec.Size = New System.Drawing.Size(187, 25)
+        Me.Rsec.Size = New System.Drawing.Size(140, 20)
         Me.Rsec.TabIndex = 20
         Me.Rsec.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.Rsec.UsePasswordMask = False
@@ -1038,9 +1116,10 @@ Partial Class Form1
         '
         Me.ReadSector.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.ReadSector.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.ReadSector.Location = New System.Drawing.Point(28, 71)
+        Me.ReadSector.Location = New System.Drawing.Point(21, 58)
+        Me.ReadSector.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReadSector.Name = "ReadSector"
-        Me.ReadSector.Size = New System.Drawing.Size(381, 32)
+        Me.ReadSector.Size = New System.Drawing.Size(286, 26)
         Me.ReadSector.TabIndex = 19
         Me.ReadSector.Text = "Read memory sectors"
         '
@@ -1048,9 +1127,10 @@ Partial Class Form1
         '
         Me.R_Info4.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.R_Info4.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.R_Info4.Location = New System.Drawing.Point(28, 15)
+        Me.R_Info4.Location = New System.Drawing.Point(21, 12)
+        Me.R_Info4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.R_Info4.Name = "R_Info4"
-        Me.R_Info4.Size = New System.Drawing.Size(381, 32)
+        Me.R_Info4.Size = New System.Drawing.Size(286, 26)
         Me.R_Info4.TabIndex = 18
         Me.R_Info4.Text = "Read Info"
         '
@@ -1064,9 +1144,10 @@ Partial Class Form1
         Me.ReactorGroupBox4.Controls.Add(Me.RD4)
         Me.ReactorGroupBox4.Controls.Add(Me.RR4)
         Me.ReactorGroupBox4.Controls.Add(Me.RB4)
-        Me.ReactorGroupBox4.Location = New System.Drawing.Point(6, 395)
+        Me.ReactorGroupBox4.Location = New System.Drawing.Point(4, 321)
+        Me.ReactorGroupBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReactorGroupBox4.Name = "ReactorGroupBox4"
-        Me.ReactorGroupBox4.Size = New System.Drawing.Size(427, 116)
+        Me.ReactorGroupBox4.Size = New System.Drawing.Size(320, 94)
         Me.ReactorGroupBox4.TabIndex = 17
         Me.ReactorGroupBox4.Text = "Reboot option"
         '
@@ -1074,9 +1155,10 @@ Partial Class Form1
         '
         Me.RPO4.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RPO4.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RPO4.Location = New System.Drawing.Point(297, 72)
+        Me.RPO4.Location = New System.Drawing.Point(223, 58)
+        Me.RPO4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RPO4.Name = "RPO4"
-        Me.RPO4.Size = New System.Drawing.Size(106, 32)
+        Me.RPO4.Size = New System.Drawing.Size(80, 26)
         Me.RPO4.TabIndex = 6
         Me.RPO4.Text = "Power off"
         '
@@ -1084,9 +1166,10 @@ Partial Class Form1
         '
         Me.RM4.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RM4.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RM4.Location = New System.Drawing.Point(216, 72)
+        Me.RM4.Location = New System.Drawing.Point(162, 58)
+        Me.RM4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RM4.Name = "RM4"
-        Me.RM4.Size = New System.Drawing.Size(75, 32)
+        Me.RM4.Size = New System.Drawing.Size(56, 26)
         Me.RM4.TabIndex = 5
         Me.RM4.Text = "META"
         '
@@ -1094,9 +1177,10 @@ Partial Class Form1
         '
         Me.RF4.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RF4.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RF4.Location = New System.Drawing.Point(119, 72)
+        Me.RF4.Location = New System.Drawing.Point(89, 58)
+        Me.RF4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RF4.Name = "RF4"
-        Me.RF4.Size = New System.Drawing.Size(90, 32)
+        Me.RF4.Size = New System.Drawing.Size(68, 26)
         Me.RF4.TabIndex = 4
         Me.RF4.Text = "FTM"
         '
@@ -1104,9 +1188,10 @@ Partial Class Form1
         '
         Me.RS4.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RS4.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RS4.Location = New System.Drawing.Point(22, 72)
+        Me.RS4.Location = New System.Drawing.Point(16, 58)
+        Me.RS4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RS4.Name = "RS4"
-        Me.RS4.Size = New System.Drawing.Size(91, 32)
+        Me.RS4.Size = New System.Drawing.Size(68, 26)
         Me.RS4.TabIndex = 3
         Me.RS4.Text = "System"
         '
@@ -1114,9 +1199,10 @@ Partial Class Form1
         '
         Me.RD4.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RD4.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RD4.Location = New System.Drawing.Point(297, 34)
+        Me.RD4.Location = New System.Drawing.Point(223, 28)
+        Me.RD4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RD4.Name = "RD4"
-        Me.RD4.Size = New System.Drawing.Size(106, 32)
+        Me.RD4.Size = New System.Drawing.Size(80, 26)
         Me.RD4.TabIndex = 2
         Me.RD4.Text = "Download"
         '
@@ -1124,9 +1210,10 @@ Partial Class Form1
         '
         Me.RR4.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RR4.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RR4.Location = New System.Drawing.Point(215, 34)
+        Me.RR4.Location = New System.Drawing.Point(161, 28)
+        Me.RR4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RR4.Name = "RR4"
-        Me.RR4.Size = New System.Drawing.Size(76, 32)
+        Me.RR4.Size = New System.Drawing.Size(57, 26)
         Me.RR4.TabIndex = 1
         Me.RR4.Text = "RUU"
         '
@@ -1134,22 +1221,25 @@ Partial Class Form1
         '
         Me.RB4.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.RB4.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.RB4.Location = New System.Drawing.Point(22, 34)
+        Me.RB4.Location = New System.Drawing.Point(16, 28)
+        Me.RB4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RB4.Name = "RB4"
-        Me.RB4.Size = New System.Drawing.Size(187, 32)
+        Me.RB4.Size = New System.Drawing.Size(140, 26)
         Me.RB4.TabIndex = 0
         Me.RB4.Text = "Bootloader"
         '
         'TabPage5
         '
         Me.TabPage5.BackColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(32, Byte), Integer))
+        Me.TabPage5.Controls.Add(Me.ReactorButton2)
         Me.TabPage5.Controls.Add(Me.APK_Path)
         Me.TabPage5.Controls.Add(Me.ReactorGroupBox6)
         Me.TabPage5.Controls.Add(Me.ReactorButton61)
         Me.TabPage5.Controls.Add(Me.CheckADB)
-        Me.TabPage5.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage5.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Size = New System.Drawing.Size(439, 517)
+        Me.TabPage5.Size = New System.Drawing.Size(327, 418)
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "ADB"
         '
@@ -1157,10 +1247,11 @@ Partial Class Form1
         '
         Me.APK_Path.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer), CType(CType(37, Byte), Integer))
         Me.APK_Path.ForeColor = System.Drawing.Color.White
-        Me.APK_Path.Location = New System.Drawing.Point(36, 364)
+        Me.APK_Path.Location = New System.Drawing.Point(27, 296)
+        Me.APK_Path.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.APK_Path.MaxCharacters = 32767
         Me.APK_Path.Name = "APK_Path"
-        Me.APK_Path.Size = New System.Drawing.Size(367, 25)
+        Me.APK_Path.Size = New System.Drawing.Size(275, 22)
         Me.APK_Path.TabIndex = 3
         Me.APK_Path.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.APK_Path.UsePasswordMask = False
@@ -1172,9 +1263,10 @@ Partial Class Form1
         Me.ReactorGroupBox6.Controls.Add(Me.R_S_A)
         Me.ReactorGroupBox6.Controls.Add(Me.R_R_A)
         Me.ReactorGroupBox6.Controls.Add(Me.R_B_A)
-        Me.ReactorGroupBox6.Location = New System.Drawing.Point(12, 426)
+        Me.ReactorGroupBox6.Location = New System.Drawing.Point(9, 346)
+        Me.ReactorGroupBox6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReactorGroupBox6.Name = "ReactorGroupBox6"
-        Me.ReactorGroupBox6.Size = New System.Drawing.Size(410, 79)
+        Me.ReactorGroupBox6.Size = New System.Drawing.Size(308, 64)
         Me.ReactorGroupBox6.TabIndex = 2
         Me.ReactorGroupBox6.Text = "Reboot option (adb)"
         '
@@ -1182,9 +1274,10 @@ Partial Class Form1
         '
         Me.R_S_A.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.R_S_A.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.R_S_A.Location = New System.Drawing.Point(270, 36)
+        Me.R_S_A.Location = New System.Drawing.Point(202, 29)
+        Me.R_S_A.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.R_S_A.Name = "R_S_A"
-        Me.R_S_A.Size = New System.Drawing.Size(121, 32)
+        Me.R_S_A.Size = New System.Drawing.Size(91, 26)
         Me.R_S_A.TabIndex = 2
         Me.R_S_A.Text = "System"
         '
@@ -1192,9 +1285,10 @@ Partial Class Form1
         '
         Me.R_R_A.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.R_R_A.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.R_R_A.Location = New System.Drawing.Point(144, 36)
+        Me.R_R_A.Location = New System.Drawing.Point(108, 29)
+        Me.R_R_A.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.R_R_A.Name = "R_R_A"
-        Me.R_R_A.Size = New System.Drawing.Size(121, 32)
+        Me.R_R_A.Size = New System.Drawing.Size(91, 26)
         Me.R_R_A.TabIndex = 1
         Me.R_R_A.Text = "Recovery"
         '
@@ -1202,9 +1296,10 @@ Partial Class Form1
         '
         Me.R_B_A.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.R_B_A.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.R_B_A.Location = New System.Drawing.Point(19, 36)
+        Me.R_B_A.Location = New System.Drawing.Point(14, 29)
+        Me.R_B_A.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.R_B_A.Name = "R_B_A"
-        Me.R_B_A.Size = New System.Drawing.Size(121, 32)
+        Me.R_B_A.Size = New System.Drawing.Size(91, 26)
         Me.R_B_A.TabIndex = 0
         Me.R_B_A.Text = "Bootloader"
         '
@@ -1212,9 +1307,10 @@ Partial Class Form1
         '
         Me.ReactorButton61.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.ReactorButton61.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.ReactorButton61.Location = New System.Drawing.Point(220, 21)
+        Me.ReactorButton61.Location = New System.Drawing.Point(165, 17)
+        Me.ReactorButton61.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReactorButton61.Name = "ReactorButton61"
-        Me.ReactorButton61.Size = New System.Drawing.Size(183, 32)
+        Me.ReactorButton61.Size = New System.Drawing.Size(137, 26)
         Me.ReactorButton61.TabIndex = 1
         Me.ReactorButton61.Text = "Install Apps (.apk)"
         '
@@ -1222,19 +1318,33 @@ Partial Class Form1
         '
         Me.CheckADB.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
         Me.CheckADB.Font = New System.Drawing.Font("Verdana", 6.75!)
-        Me.CheckADB.Location = New System.Drawing.Point(31, 21)
+        Me.CheckADB.Location = New System.Drawing.Point(23, 17)
+        Me.CheckADB.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.CheckADB.Name = "CheckADB"
-        Me.CheckADB.Size = New System.Drawing.Size(183, 32)
+        Me.CheckADB.Size = New System.Drawing.Size(137, 26)
         Me.CheckADB.TabIndex = 0
         Me.CheckADB.Text = "Check"
         '
+        'ReactorButton2
+        '
+        Me.ReactorButton2.BackColor = System.Drawing.Color.FromArgb(CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(38, Byte), Integer))
+        Me.ReactorButton2.Enabled = False
+        Me.ReactorButton2.Font = New System.Drawing.Font("Verdana", 6.75!)
+        Me.ReactorButton2.Location = New System.Drawing.Point(23, 48)
+        Me.ReactorButton2.Name = "ReactorButton2"
+        Me.ReactorButton2.Size = New System.Drawing.Size(137, 26)
+        Me.ReactorButton2.TabIndex = 4
+        Me.ReactorButton2.Text = "Check ROOT"
+        Me.ReactorButton2.Visible = False
+        '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(469, 658)
+        Me.ClientSize = New System.Drawing.Size(352, 535)
         Me.Controls.Add(Me.ReactorTheme1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ZtcTool_Lite v1.05"
@@ -1358,4 +1468,5 @@ Partial Class Form1
     Friend WithEvents unFilePath As ReactorTextBox
     Friend WithEvents APK_Path As ReactorTextBox
     Friend WithEvents ReactorButton1 As ReactorButton
+    Friend WithEvents ReactorButton2 As ReactorButton
 End Class
